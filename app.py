@@ -7,8 +7,8 @@ from nltk.stem.porter import PorterStemmer
 import numpy as np
 import dill
 # load the model from disk
-c = dill.load(open('C:/Users/A.C.E/vishwa_awards/cv_trans.obj','rb'))
-clf = dill.load(open('C:/Users/A.C.E/vishwa_awards/navibaye.obj', 'rb'))
+c = dill.load(open('cv_trans.obj','rb'))
+clf = dill.load(open('navibaye.obj', 'rb'))
 
 app = Flask(__name__,template_folder='C:/Users/A.C.E/vishwa_awards/templates')
 
