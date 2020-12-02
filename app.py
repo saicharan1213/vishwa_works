@@ -10,7 +10,7 @@ import dill
 c = dill.load(open('cv_trans.obj','rb'))
 clf = dill.load(open('navibaye.obj', 'rb'))
 
-app = Flask(__name__,template_folder='C:/Users/A.C.E/vishwa_awards/templates')
+app = Flask(__name__,template_folder='templates')
 
 
 @app.route('/')
